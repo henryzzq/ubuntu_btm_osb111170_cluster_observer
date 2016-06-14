@@ -36,4 +36,4 @@ RUN mv /deployOB.sh /util && \
 # Expose Node Manager default port, and also default http/https ports for admin console
 EXPOSE 7001 8001 8002 8101 5556 8453 36963
 
-CMD ["/util/main_osb.sh"]
+CMD ["/util/main_cluster_osb.sh"]
